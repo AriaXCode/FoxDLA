@@ -1,5 +1,5 @@
 // ============================================================================
-// Symbolic Link Manager
+// FoxDLA
 // Native Win32 / C++17 / Unicode. No external dependencies.
 //
 // Implementation is exposed through include/mine.hpp; this file contains the
