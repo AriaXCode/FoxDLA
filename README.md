@@ -1,4 +1,4 @@
-# Symbolic Link Manager
+# FoxDLA (Symbolic Link Manager)
 
 A native Win32 GUI utility written in C++17 for creating file and directory symbolic links on Windows. The program validates both paths before creating a link and does not overwrite an existing destination.
 
