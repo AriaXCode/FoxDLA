@@ -1,0 +1,37 @@
+name: Windows Build, Tests and Artifact
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-test:
+    name: Build, test and package (Windows x64)
+    runs-on: windows-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Configure CMake
+        run: cmake -S . -B build -A x64 -DBUILD_TESTING=ON
+
+      - name: Build application and tests
+        run: cmake --build build --config Release --parallel
+
+      # Keep the existing CTest step: the workflow must fail if tests fail.
+      - name: Run tests
+        run: ctest --test-dir build -C Release --output-on-failure
+
+      # Upload the GUI application only after the build and tests pass.
+      - name: Upload Windows executable
+        uses: actions/upload-artifact@v4
+        with:
+          name: SymbolicLinkManager-Windows-x64
+          path: build/Release/SymbolicLinkManager.exe
+          if-no-files-found: error
+          retention-days: 14

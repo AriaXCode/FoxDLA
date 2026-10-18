@@ -1,0 +1,127 @@
+FoxCodes License 1.0
+
+"A custom source-available software license"
+
+Copyright (c) 2026 AriaXCode
+
+## 1. Definitions
+
+For purposes of this License:
+
+- **"Licensor"** means the copyright holder identified in the copyright notice above, or any person or entity authorized by that holder to distribute the Original Work under this License.
+- **"Original Work"** means the software, source code, object code, documentation, and other materials that the Licensor makes available under this License, including the version distributed by the Licensor through the Licensor's official website, repository, or other designated distribution channel.
+- **"You"** means the individual or legal entity exercising rights under this License.
+- **"Derivative Work"** means a work based on, adapted from, or incorporating material from the Original Work, where the resulting work contains modifications, additions, or other material sufficient to make it a modified version rather than merely an unmodified copy. A change of name, file name, packaging, or other purely cosmetic change alone does not make an otherwise unmodified copy a Derivative Work for purposes of the resale restriction in Section 4.
+- **"Combined Product"** means a separate product, application, service, or larger work that incorporates, calls, links to, distributes with, or otherwise uses the Original Work as one component.
+- **"Attribution Notices"** means copyright notices, author or project credits, this License, and notices identifying the origin of the Original Work that are supplied with it.
+
+## 2. License Grant
+
+Subject to the terms and conditions of this License, the Licensor grants You a worldwide, non-exclusive, royalty-free, perpetual (for the duration of applicable rights), irrevocable license to:
+
+1. use and execute the Original Work for personal, educational, research, internal organizational, and commercial purposes;
+2. access, inspect, and use the source code;
+3. copy, reproduce, publish, distribute, and redistribute the Original Work, subject to Section 4;
+4. modify, adapt, translate, and create Derivative Works;
+5. create and maintain forks of the Original Work;
+6. incorporate the Original Work or a Derivative Work into other projects and Combined Products; and
+7. distribute and sell Derivative Works and Combined Products, subject to this License and any applicable third-party terms.
+
+No fee or royalty is owed to the Licensor merely because You exercise the rights granted by this Section.
+
+## 3. Commercial Use
+
+Commercial use is permitted. You may use the Original Work within a business, organization, commercial project, paid service, or commercial product. You may also incorporate it into a product or service offered for payment.
+
+The restriction in Section 4 applies only to selling or charging for the Original Work itself as an unmodified copy. It does not prohibit charging for a Combined Product, for a Derivative Work, or for services such as installation, hosting, support, maintenance, training, or customization, provided that You comply with the attribution requirements in Section 5 and all other applicable terms.
+
+## 4. Resale of the Unmodified Original Work
+
+You may not sell, license for a fee, or otherwise charge a fee specifically for providing a copy of the Original Work in an unmodified form.
+
+This restriction applies to the Original Work regardless of whether the copy was obtained from the Licensor's official website, an official repository, a mirror, or another third party.
+
+For clarity:
+
+- You may redistribute unmodified copies of the Original Work at no charge, provided that You retain the Attribution Notices and this License.
+- You may charge for a Derivative Work, provided it contains genuine modifications, additions, or other substantive changes beyond merely cosmetic changes, renaming, or repackaging.
+- You may sell a Combined Product that includes the Original Work, and may charge for access to a service that uses it, provided that the fee is for the Combined Product or service and not solely for supplying an unmodified copy of the Original Work.
+- You may charge for services associated with the Original Work, including installation, hosting, support, maintenance, training, and customization, even if the underlying copy is unmodified.
+- You may not evade this Section by changing only the name, file name, packaging, or presentation of the Original Work.
+
+Nothing in this Section requires You to publish the source code of a Derivative Work or Combined Product, unless You separately agree to do so or applicable law requires it.
+
+## 5. Attribution and Preservation of Notices
+
+When You copy, redistribute, publish, or distribute a Derivative Work or a Combined Product that contains or redistributes material from the Original Work, You must:
+
+1. retain all Attribution Notices included with the Original Work, including applicable copyright notices and this License;
+2. clearly identify the Original Work as the source or as a component used in the relevant work; and
+3. not remove, obscure, or misrepresent the Licensor's authorship or the origin of the Original Work.
+
+You may change the name, branding, interface, or presentation of a Derivative Work. You are not required to use the original project name as the name of Your Derivative Work, but You must preserve attribution to the Original Work and the Licensor in a reasonable, conspicuous location, such as a `NOTICE` file, documentation, credits page, or equivalent legal notices section.
+
+You must not state or imply that the Licensor endorses, sponsors, or is responsible for Your Derivative Work or Combined Product unless the Licensor has given prior written permission.
+
+This Section does not grant You any right to use the Licensor's trademarks, logos, or other branding, except to the limited extent necessary to truthfully identify the origin of the Original Work.
+
+## 6. Distribution of Derivative Works
+
+You may distribute, publish, license, and sell Derivative Works under terms of Your choice, including a commercial or proprietary license, provided that:
+
+- You comply with Section 5;
+- You do not represent the unmodified Original Work as Your own work;
+- You do not impose terms on recipients that purport to revoke the rights already granted under this License to copies of the Original Work that remain subject to this License; and
+- You comply with applicable law and any license terms governing third-party materials.
+
+You may not use a Derivative Work designation merely as a pretext to sell an otherwise unmodified copy of the Original Work.
+
+## 7. Third-Party Materials
+
+The Original Work may include or depend on third-party software, data, assets, or other materials. Those components may be governed by separate license terms. This License does not replace, expand, or override third-party rights or obligations. You are responsible for identifying and complying with any applicable third-party terms.
+
+## 8. No Warranty
+
+To the maximum extent permitted by applicable law, the Original Work is provided **"AS IS"** and **"AS AVAILABLE"**, without warranties or conditions of any kind, whether express, implied, statutory, or otherwise, including warranties of merchantability, fitness for a particular purpose, title, non-infringement, accuracy, or that the Original Work will be uninterrupted or error-free.
+
+You are responsible for determining whether the Original Work is suitable for Your use and for any results obtained from it.
+
+Some jurisdictions do not allow the exclusion of certain warranties, so some parts of this Section may not apply to You.
+
+## 9. Limitation of Liability
+
+To the maximum extent permitted by applicable law, in no event will the Licensor or contributors be liable for any indirect, incidental, special, consequential, exemplary, or punitive damages, or for any loss of profits, revenue, data, goodwill, business interruption, or other commercial loss, arising out of or related to the Original Work or this License, under any theory of liability, even if advised of the possibility of such damages.
+
+To the maximum extent permitted by applicable law, the Licensor's and contributors' total liability for all claims relating to the Original Work or this License will be limited to the amount, if any, that You paid directly to the Licensor for the Original Work during the twelve (12) months before the event giving rise to the claim.
+
+Nothing in this License excludes or limits liability that cannot lawfully be excluded or limited under applicable law.
+
+## 10. Termination
+
+The rights granted under this License terminate automatically if You materially breach its terms. Where the breach is capable of remedy, Your rights will be reinstated if You cure the breach within thirty (30) days after becoming aware of it or receiving written notice of it, whichever occurs first, unless the Licensor has expressly stated otherwise in writing.
+
+Termination does not affect the rights of recipients who received copies or rights under this License before termination, provided those recipients comply with the applicable terms. Sections that by their nature should survive termination, including attribution, disclaimers, limitations of liability, and interpretation provisions, will survive to the extent permitted by law.
+
+## 11. Reservation of Rights
+
+All rights not expressly granted under this License are reserved by the Licensor. This License does not transfer ownership of the Original Work or any intellectual property rights in it.
+
+## 12. Governing Law and Interpretation
+
+This License does not specify a governing law or exclusive forum. Any dispute will be determined under the applicable laws and procedures of the relevant jurisdiction, subject to any mandatory rules that apply.
+
+If any provision of this License is held unenforceable, it will be modified to the minimum extent necessary to make it enforceable, if legally permitted, and the remaining provisions will remain in effect.
+
+A failure to enforce any provision is not a waiver of the right to enforce it later.
+
+## 13. Entire License
+
+This License sets out the terms under which the Licensor makes the Original Work available. If You enter into a separate written agreement with the Licensor that expressly governs the Original Work, that agreement will control to the extent of any conflict.
+
+---
+
+**License name:** FoxCodes License 1.0  
+**License type:** Custom source-available license  
+**Official license text:** This file
+
+Before publishing, replace `[YEAR]` and `[COPYRIGHT HOLDER]` with the appropriate details. This is a custom-drafted starting point, not a guarantee of enforceability in every jurisdiction. Have a qualified lawyer review it for the countries and distribution model relevant to You. Because it prohibits selling an unmodified copy, it should not be described as an OSI-approved Open Source License.
