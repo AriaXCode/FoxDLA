@@ -6,6 +6,12 @@
 // Win32 implementation, validation, logging, dialogs, and GUI event handling.
 // ============================================================================
 
+// ============================================================================
+// Dear programmer, it doesn't matter whether you believe in God or not.
+// But the only way to understand these messy codes is through a divine miracle.
+// ============================================================================
+
+
 #ifndef UNICODE
 #define UNICODE
 #endif
@@ -59,10 +65,10 @@
 
 namespace slm {
 
-constexpr wchar_t kAppTitle[] = L"Symbolic Link Manager";
-constexpr wchar_t kWindowClass[] = L"SymbolicLinkManagerWindow";
-constexpr wchar_t kLogFileName[] = L"app.log.txt";
-constexpr wchar_t kLogFallbackFolder[] = L"SymbolicLinkManager";
+constexpr wchar_t kAppTitle[] = L"FoxDLA";
+constexpr wchar_t kWindowClass[] = L"FoxDLAWindow";
+constexpr wchar_t kLogFileName[] = L"applog.txt";
+constexpr wchar_t kLogFallbackFolder[] = L"FoxDLA";
 
 // ----------------------------------------------------------------------------
 // StringUtil
@@ -442,7 +448,7 @@ namespace Validation {
 OpResult ValidateRequest(const std::wstring& rawSource, const std::wstring& rawLink,
                          LinkKind kind, LinkRequest& request) {
     using namespace PathUtil;
-
+    
     const std::wstring sourceInput = StringUtil::CleanPathInput(rawSource);
     const std::wstring linkInput = StringUtil::CleanPathInput(rawLink);
 
@@ -1162,7 +1168,7 @@ int Run(HINSTANCE instance, int showCommand) {
 }  // namespace slm
 
 // ----------------------------------------------------------------------------
-// Entry point (GUI subsystem, no console window)
+// Entry point (GUI subsystem)
 // ----------------------------------------------------------------------------
 #ifndef SYMBOLIC_LINK_MANAGER_NO_ENTRY_POINT
 using namespace slm;
@@ -1210,4 +1216,4 @@ int WINAPI wWinMain(HINSTANCE instance, HINSTANCE, PWSTR, int showCommand) {
     Logger::Info(L"==== Application shutdown (exit code " + std::to_wstring(exitCode) + L") ====");
     return exitCode;
 }
-#endif  // SYMBOLIC_LINK_MANAGER_NO_ENTRY_POINT
+#endif
