@@ -5,7 +5,7 @@ A native Win32 GUI utility written in C++17 for creating file and directory symb
 ## Project layout
 
 ```text
-SymbolicLinkManager/
+FoxDLA/
 ├── include/
 │   └── mine.hpp       # Shared types and public declarations
 ├── src/
@@ -14,6 +14,7 @@ SymbolicLinkManager/
 │   └── test.cpp       # Lightweight unit tests
 ├── CMakeLists.txt
 ├── .gitignore
+├── FoxCodes-License-1.0
 └── README.md
 ```
 
