@@ -1,5 +1,5 @@
-#ifndef SYMBOLIC_LINK_MANAGER_MINE_HPP
-#define SYMBOLIC_LINK_MANAGER_MINE_HPP
+#ifndef FoxDLA
+#define FoxDLAP
 
 #ifndef UNICODE
 #define UNICODE
