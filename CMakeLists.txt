@@ -39,7 +39,7 @@ if(BUILD_TESTING)
         src/mine.cpp
     )
     target_include_directories(FoxDLATests PRIVATE include)
-    target_compile_definitions(FoxDLATests PRIVATE FoxDLA=1)
+    target_compile_definitions(FoxDLATests PRIVATE SYMBOLIC_LINK_MANAGER_NO_ENTRY_POINT=1)
     target_link_libraries(FoxDLATests PRIVATE ${SLM_WINDOWS_LIBS})
 
     if(MSVC)
