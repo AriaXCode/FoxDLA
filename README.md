@@ -17,6 +17,7 @@ FoxDLA/
 ├── FoxCodes-License-1.0
 └── README.md
 ```
+<img width="690" height="374" alt="P1-2026" src="https://github.com/user-attachments/assets/1405d938-e217-4feb-a0f6-8e6e22b04673" />
 
 ## Requirements
 
