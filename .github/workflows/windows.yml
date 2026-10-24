@@ -31,7 +31,7 @@ jobs:
       - name: Upload Windows executable
         uses: actions/upload-artifact@v4
         with:
-          name: SymbolicLinkManager-Windows-x64
-          path: build/Release/SymbolicLinkManager.exe
+          name: FoxDLA-Windows-x64
+          path: build/Release/FoxDLA.exe
           if-no-files-found: error
           retention-days: 14
